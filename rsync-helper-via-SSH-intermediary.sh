@@ -11,8 +11,6 @@ read -p "What is the name of the remote server you want to pull data from?: [ser
 SERVERNAME=${SERVERNAME:-server-123}
 read -p "What directory do you want to pull?: [workdir]  " SYNCTARGET
 SYNCTARGET=${SYNCTARGET:-workdir}
-read -p "What intermediate SSH server do you want to go through?: [ssh-server]  " INTERMEDIATE
-INTERMEDIATE=${INTERMEDIATE:-ssh-server}
 
 ######################################################
 
